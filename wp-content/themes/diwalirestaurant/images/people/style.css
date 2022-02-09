@@ -1,0 +1,81 @@
+/*
+Theme Name: Diwali Restaurant
+Theme URI: http://www.diwalirestaurant.com/
+Author: Diwali Restaurant
+Author URI: http://www.diwalirestaurant.com/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: diwalirestaurant
+*/
+
+.visiblediv {
+    display: block;
+}
+
+.hiddendiv {
+    display: none;
+}
+
+.uk-margin-double-large-top-contact {
+    margin-bottom: 100px !important;
+}
+
+/*New Css*/
+.impx-logo {
+    margin-top: -15px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .impx-logo {
+        margin-top: -37px
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .impx-logo {
+        margin-top: -37px
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .impx-logo {
+        margin-top: -37px
+    }
+}
+
+/*Logo Dark*/
+.impx-logo .impx-logo-dark {
+    margin-top: -36px !important;
+}
+/*Logo CSS*/
+/*.impx-main-header {*/
+/*height: 140px !important;*/
+/*}*/
+
+/*.impx-logo {*/
+/*margin-top: 10px;*/
+/*}*/
+/*@media only screen and (min-width: 480px) and (max-width: 767px) {*/
+/*.impx-logo {*/
+/*margin: 0 auto;*/
+/*}*/
+/*.impx-main-header {*/
+/*height: 160px !important;*/
+/*}*/
+/*}*/
+/*@media only screen and (min-width: 768px) and (max-width: 959px) {*/
+/*.impx-logo {*/
+/*margin: 0 auto;*/
+/*}*/
+/*}*/
+
+/*@media only screen and (max-width: 479px) {*/
+/*.impx-logo {*/
+/*margin: 0 auto;*/
+/*}*/
+/*.impx-main-header {*/
+/*height: 160px !important;*/
+/*}*/
+/*}*/

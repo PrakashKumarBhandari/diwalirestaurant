@@ -1,0 +1,620 @@
+/*
+Theme Name: Diwali Restaurant
+Theme URI: http://www.diwalirestaurant.com/
+Author: Diwali Restaurant
+Author URI: http://www.diwalirestaurant.com/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: diwalirestaurant
+*/
+
+.visiblediv {
+    display: block;
+}
+
+.hiddendiv {
+    display: none;
+}
+
+.uk-navbar .sub-menu li {
+    display: none;
+}
+
+.uk-margin-double-large-top-contact {
+    margin-bottom: 100px !important;
+}
+
+.uk-grid-top-header .impx-top-header-middle {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .uk-grid-top-header .uk-width-1-2:nth-of-type(1) {
+        width: 33.33%;
+    }
+
+    .uk-grid-top-header .uk-width-1-2:nth-of-type(2) {
+        width: 66.67%;
+    }
+
+    .uk-grid-top-header .impx-top-header-middle {
+        display: block;
+        float: left;
+    }
+
+    .uk-grid-top-header .impx-top-header-middle .uk-button {
+        margin-bottom: 0 !important;
+    }
+}
+
+.impx-reservation-page-form .impx-form textarea.message-reservation:focus {
+    border-color: rgba(255, 255, 255, .6) !important;
+    background-color: rgba(255, 255, 255, .2) !important;
+    color: #c8c8c8;
+}
+
+.impx-reservation-page-form .impx-form textarea.message-reservation {
+    height: 40px;
+    padding-left: 30px !important;
+    margin-bottom: 35px !important;
+    border: 1px solid rgba(255, 255, 255, .3) !important;
+    background-color: rgba(255, 255, 255, .1) !important;
+    font-size: 15px !important;
+    border-radius: 3px;
+    color: #c8c8c8;
+}
+
+@media only screen and (max-width: 479px) {
+    .impx-reservation-page-form .impx-form textarea.message-reservation {
+        width: 280px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .impx-reservation-page-form .impx-form textarea.message-reservation {
+        width: 440px !important;
+    }
+}
+
+textarea.message-reservation-home {
+    height: 40px !important;
+    border: 1px solid #e1e1e1 !important;
+    background-color: #fafafa !important;
+    font-size: 15px !important;
+    border-radius: 4px;
+    margin-bottom: 15px !important;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    textarea.message-reservation-home {
+        width: 430px !important;
+    }
+
+}
+
+@media only screen and (max-width: 479px) {
+    textarea.message-reservation-home {
+        width: 270px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    textarea.message-reservation-home {
+        width: 100% !important;
+    }
+}
+
+/*New Css*/
+.impx-logo {
+    margin-top: -15px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .impx-logo {
+        margin-top: -37px
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .impx-logo {
+        margin-top: -37px
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .impx-logo {
+        margin-top: -37px
+    }
+}
+
+/*Top Header*/
+@media only screen and (max-width: 959px) {
+    .impx-top-header {
+        padding: 23px 0;
+    }
+}
+
+/*Logo Dark*/
+.impx-logo .impx-logo-dark {
+    margin-top: -36px !important;
+}
+
+/*Order Online*/
+.uk-online input, .uk-online button {
+    min-width: 100%;
+}
+
+.uk-online .uk-grid {
+    margin-top: 0;
+}
+
+.uk-online .uk-form-row {
+    margin-bottom: 10px !important;
+}
+
+/*////////////////////*/
+/*Footer*/
+/*///////////////////*/
+.footer-grids {
+    margin-bottom: 40px !important;
+}
+
+.footer-grids, .footer-grids h5, .footer-grids h6, .footer-grids a {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    color: #dadada;
+}
+
+.footer-grids h5, .footer-grids h6 {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.footer-grids .trip-advisor h6 {
+    font-size: 15px;
+}
+
+.footer-grids .impx-footer-social-list li {
+    display: inline;
+    padding: 10px;
+}
+
+.footer-opening-hours li.lunch, .footer-opening-hours li.dinner {
+    color: #9D2C20 !important;
+}
+
+.footer-grids a:hover, .footer-grids .impx-footer-social-list span:hover, .impx-footer-bottom a:hover {
+    color: #9D2C20;
+}
+
+.footer-grids li {
+    list-style: none;
+}
+
+@media only screen and (max-width: 959px) {
+    .footer-grids li.uk-text-center {
+        margin-bottom: 40px;
+    }
+
+    .footer-grids li.uk-text-center:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/*Home Page Popup*/
+
+.mfp-bg {
+    opacity: 0.4;
+}
+
+#myModal1 .uk-width-xlarge-5-6 {
+    width: 80%;
+}
+
+#myModal1 .impx-event-desc {
+    padding: 38px 30px;
+}
+
+#myModal1 .impx-event-wrapper {
+    background: rgba(0, 0, 0, 0.65);
+}
+
+#diwali-btn-close {
+    margin-top: -30px;
+    margin-right: -30px;
+    color: #ccc !important;
+}
+
+@media only screen and (max-width: 1140px) {
+    #myModal1 .impx-event-desc {
+        padding: 33px 30px;
+    }
+}
+
+@media only screen and (max-width: 959px) {
+    #myModal1 p, #myModal1 a, .diwali-contact p, .diwali-banquet-special p, .diwali-banquet-special .impx-separator {
+        display: block !important;
+    }
+
+    .diwali-banquet-special .impx-separator {
+        margin-bottom: 5px;
+    }
+
+    .diwali-banquet-special .uk-button {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .diwali-contact img, .diwali-banquet-special img {
+        display: none;
+    }
+
+    .diwali-contact .impx-event-desc, .diwali-banquet-special .impx-event-desc {
+        position: inherit;
+        width: auto;
+    }
+
+    .diwali-contact .impx-event-content h2 {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .diwali-banquet-special h2 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .diwali-banquet-special p {
+        padding: auto;
+    }
+
+    .diwali-contact .impx-event-desc-outline {
+        padding: 10px 0;
+    }
+
+    .diwali-banquet-special .impx-event-content {
+        margin-left: 7% !important;
+        margin-right: 7% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #myModal1 .impx-event-desc {
+        padding: 21px 30px;
+    }
+
+    .impx-event-content {
+        margin: 0 0;
+    }
+
+    #myModal1 .impx-menu-content {
+        padding: 40px;
+    }
+
+    #myModal1 .impx-menu-content-outline {
+        height: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 736px) {
+    #myModal1 .impx-event-desc {
+        padding: 22px 30px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    #myModal1 .impx-event-desc p {
+        margin-bottom: 14px;
+    }
+
+    #myModal1 .impx-event-desc .uk-button {
+        width: 56%;
+        margin: 0 auto;
+
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    #myModal1 .impx-event-desc {
+        padding: 20px 30px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    #myModal1 .impx-event-desc p {
+        margin-bottom: 4px;
+    }
+
+    #myModal1 * + address, * + blockquote, * + dl, * + fieldset, * + figure, * + ol, * + p, * + pre, * + ul {
+        margin: 0 0 15px 0;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    #myModal1 .uk-width-xlarge-5-6 {
+        width: 100%;
+    }
+
+    #myModal1 .impx-event-desc p {
+        font-size: 13px !important;
+        line-height: 21px !important;
+    }
+
+    #myModal1 p {
+        margin: auto;
+        padding: 6px;
+    }
+
+    #myModal1 .impx-event-desc .uk-button {
+        width: 60%;
+
+    }
+
+}
+
+@media only screen and (max-width: 568px) {
+    #myModal1 .impx-event-desc {
+        padding: 21px 30px;
+    }
+
+    .impx-menu-content-wrapper {
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 479px) {
+    #myModal1 p {
+        font-size: 14px;
+        padding: 1px;
+    }
+
+    #myModal1 h2 {
+        margin-bottom: 6px !important;
+    }
+
+    .impx-page-heading img {
+        width: 100%;
+    }
+
+    #myModal1 .impx-event-desc .uk-button {
+        width: 100%;
+
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 959px) {
+    .impx-page-heading .uk-overlay-page-title, .impx-page-heading img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #myModal1 .impx-event-desc {
+        padding: 17px 21px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #myModal1 .impx-event-desc .uk-button {
+        display: none !important;
+    }
+
+}
+
+@media only screen and (max-width: 414px) {
+    #myModal1 .impx-event-desc {
+        padding: 16px 21px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #myModal1 .impx-event-desc {
+        padding: 14px 21px;
+    }
+
+}
+
+@media only screen and (max-width: 340px) {
+    #myModal1 p {
+        font-size: 13px;
+        padding: 0;
+    }
+
+    #myModal1 .impx-event-desc {
+        padding: 12px 24px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+}
+
+/*Page Title*/
+
+/*Home Menu Slider*/
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px) {
+}
+
+/*Contact Page Opening Hours*/
+/*End Contact Page Opening Hours*/
+.uk-slideshow > .uk-active {
+    opacity: 1 !important;
+}
+
+.impx-slideshow .impx-pattern-overlay {
+    background-image: none !important;
+    background-repeat: no-repeat;
+}
+
+.impx-slideshow .impx-overlay.dark {
+    background-color: transparent;
+}
+
+#menu-menu-left #menu-item-285 {
+    background-color: #9D2C20;
+}
+
+#menu-menu-left #menu-item-285 a {
+    color: #ffffff !important;
+}
+
+#menu-menu-left #menu-item-285 a:hover {
+    color: #9D2C20 !important;
+}
+
+iframe#diwalirestaurant-booking #submit-button {
+    background-color: #9D2C20 !important;
+    border: 1px solid rgba(255, 255, 255, .10) !important;
+    color: #ffffff !important;
+    background-image: none !important;
+}
+
+.single-page-content ul li {
+    font-size: 20px;
+    line-height: 28px;
+    color: #a2a2a2;
+    font-weight: 500;
+}
+
+.impx-footer-menu li {
+    margin: 0 25px;
+}
+
+/*************************
+    Customize checkbox
+*************************/
+.customized-checkbox {
+    display: block;
+    position: relative;
+    /*margin-bottom: 24px;*/
+    padding-left: 38px !important;
+    cursor: pointer;
+    /*font-size: inherit;*/
+    /*font-weight: normal;*/
+    line-height: 1.8;
+    letter-spacing: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.customized-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.customized-checkbox a {
+    /*font-size: inherit;*/
+    /*color: #9D2C20;*/
+}
+
+.customized-checkbox a:hover {
+    color: #9D2C20;
+    text-decoration: underline;
+}
+
+.customized-checkbox .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #ffffff;
+}
+
+.customized-checkbox.customized-checkbox-bordered .checkmark {
+    border: 2px solid #9D2C20;
+    height: 23px;
+    width: 23px;
+}
+
+.customized-checkbox:hover input ~ .checkmark {
+    background-color: #ffffff;
+}
+
+.customized-checkbox input:checked ~ .checkmark {
+    background-color: #9D2C20;
+}
+
+.customized-checkbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.customized-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.customized-checkbox .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.customized-checkbox.customized-checkbox-bordered .checkmark:after {
+    top: 3px;
+    left: 8px;
+}
+
+/*************************
+    Cookie
+*************************/
+.alert-cookie {
+    display: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 6000;
+    margin: 0;
+    padding: 15px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+}
+
+.alert-cookie p {
+    display: inline-block;
+    margin: 0;
+    /*font-size: 14px;*/
+}
+
+.alert-cookie a {
+    color: #c6b486;
+}
+
+.alert-cookie a:hover {
+    color: #c6b486;
+}
+
+.alert-cookie .btn-cookie {
+    background: #9D2C20;
+    color: #ffffff;
+    border: none;
+    margin-left: 5px;
+    padding: 6px 12px;
+}
+
+.alert-cookie .btn-cookie:hover {
+    background: #9D2C20;
+    color: #ffffff;
+}
